@@ -54,12 +54,5 @@ export const loadMovies = () => (dispatch, getState) => {
     }))
 }
 
-// export const loadMovies = () => apiCallBegan({
-//     url: 'http://localhost:4000',
-//     onStart: moviesRequested.type,
-//     onEnd: requestEnded.type,
-//     onSuccess: dataReceived.type,
-// })
-
 // SELECTORS
 
